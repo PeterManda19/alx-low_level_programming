@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 /**
  * main - Entry point
  *
@@ -18,9 +17,9 @@ int main(void)
 			}
 			else
 			{
-				putchar(x);
-				putchar(y);
-				if (x == 56 && y == 57)
+				putchar(i);
+				putchar(j);
+				if (i == 56 && j == 57)
 				{
 				}
 				else
