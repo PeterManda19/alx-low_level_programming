@@ -6,5 +6,12 @@
  */
 int main(void)
 {
+	int x;
+
+	while (x <= 122)
+	{
+		putchar(x);
+	}
+	putchar('\n');
 	return (0);
 }			
