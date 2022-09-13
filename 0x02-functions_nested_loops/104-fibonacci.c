@@ -11,7 +11,7 @@ int main(void)
 	long int i;
 	long int prev = 1;
 	long int post = 2;
-	long int constraint = 1000000000;	
+	long int constraint = 1000000000;
 	long int prev1;
 	long int prev2;
 	long int post1;
