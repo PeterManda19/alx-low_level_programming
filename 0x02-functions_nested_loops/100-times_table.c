@@ -3,7 +3,7 @@
 int _putchar(char c);
 
 /**
- *  prints the n times table, starting exclusively at 0 to 15
+ *  main - prints the n times table, starting exclusively at 0 to 15
  *
  *  @n: n times table
  *
