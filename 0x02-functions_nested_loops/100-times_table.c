@@ -1,9 +1,9 @@
 #include "main.h"
-/* function to call to print char c */
+/* _putchar - to call to print char c */
 int _putchar(char c);
 
 /**
- * main - prints the n times table, starting exclusively at 0 to 15
+ * print_times_table - prints the n times table, starting exclusively at 0 to 15
  *
  * @n: n times table
  *
