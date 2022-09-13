@@ -15,7 +15,7 @@ int print_last_digit(int n)
 	if (n < 0)
 	{
 		n = -n;
-		_putchar(n + '0');
+		_putchar(n + 48);
 	}
-	return (n);
+	return (0);
 }
