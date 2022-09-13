@@ -21,7 +21,7 @@ int main(void)
 
 	for (i = 1; i < 91; i++)
 	{
-		printf(",%lu", post);
+		printf(", %lu", post);
 		post += prev;
 		prev = post - prev;
 	}
