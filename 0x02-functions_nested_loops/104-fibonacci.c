@@ -30,7 +30,7 @@ int main(void)
 	post1 = (post / constraint);
 	post2 = (post % constraint);
 
-	for (i = 92; i < 99; ++i)
+	for (i = 92; i < 99; i++)
 	{
 		printf(", %lu", post1 + (post2 / constraint));
 		printf("%lu", post2 % constraint);
