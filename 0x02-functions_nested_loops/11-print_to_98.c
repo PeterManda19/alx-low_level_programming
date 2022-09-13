@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <stdio.h>
 /**
  * print_to_98 - prints all the numbers between the argument number and 98
  * @n: integer to begin from
