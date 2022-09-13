@@ -29,7 +29,7 @@ void print_times_table(int n)
 						_putchar(' ');
 						_putchar(' ');
 					}
-					_putchar((y * x) + "0");
+					_putchar((y * x) + '0');
 				}
 				else if ((x * y) < 100)
 				{
@@ -53,4 +53,4 @@ void print_times_table(int n)
 		_putchar('\n');
 		}
 	}
-
+}
