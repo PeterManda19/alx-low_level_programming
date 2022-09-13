@@ -1,13 +1,13 @@
 #include "main.h"
-/* function to call for char */
+/* function to call to print char c */
 int _putchar(char c);
 
 /**
- *  main - prints the n times table, starting exclusively at 0 to 15
+ * main - prints the n times table, starting exclusively at 0 to 15
  *
- *  @n: n times table
+ * @n: n times table
  *
- *  Return: void
+ * Return: void
  */
 
 void print_times_table(int n)
