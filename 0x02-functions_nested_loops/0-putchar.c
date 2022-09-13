@@ -8,7 +8,7 @@
 
 int _putchar(char c)
 {
-
+	print(c);
 	_putchar ('\n');
 	return (0);
 }
