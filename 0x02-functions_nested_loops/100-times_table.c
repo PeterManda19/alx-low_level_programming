@@ -1,5 +1,5 @@
 #include "main.h"
-
+/* function to call for char */
 int _putchar(char c);
 
 /**
