@@ -1,5 +1,5 @@
-#include "holberton.h"
-#include "stdio.h"
+#include "main.h"
+
 /**
  * print_to_98 - print all the numbers between the provided number and 98
  * @n: integer to start at
