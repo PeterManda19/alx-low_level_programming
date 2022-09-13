@@ -12,11 +12,11 @@ int main(void)
 	long int prev = 1;
 	long int post = 2;
 
-	printf("%d", prev);
+	printf("%lu", prev);
 
 	for (i = 1; i < 50; i++)
 	{
-		printf(", %d", post);
+		printf(", %lu", post);
 		post += prev;
 		prev = post - prev;
 	}
