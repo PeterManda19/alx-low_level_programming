@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * print_to_98 - print all the numbers between the provided number and 98
- * @n: integer to start at
- * Return: Void.
+ * print_to_98 - prints all the numbers between the argument number and 98
+ * @n: integer to begin from
+ * Return: void
  */
 void print_to_98(int n)
 {
