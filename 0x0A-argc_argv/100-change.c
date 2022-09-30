@@ -22,32 +22,32 @@ int main(int argc, char *argv[])
 		return (1);
 	}
 	value = atoi(argv[1]);
-	else if (value < 0)
+	if (value < 0)
 	{
 		printf("%d\n", 0);
 		return (0);
 	}
-	else if (value % 25 >= 0)
+	if (value % 25 >= 0)
 	{
 		c += value / 25;
 		value = value % 25;
 	}
-	else if (value % 10 >= 0)
+	if (value % 10 >= 0)
 	{
 		c += value / 10;
 		value = value % 10;
 	}
-	else if (value % 5 >= 0)
+	if (value % 5 >= 0)
 	{
 		c += value / 5;
 		value = value % 5;
 	}
-	else if (value % 2 >= 0)
+	if (value % 2 >= 0)
 	{
 		c += value / 2;
 		value = value % 2;
 	}
-	else if (value % 1 >= 0)
+	if (value % 1 >= 0)
 	{
 		c += value / 1;
 	}
