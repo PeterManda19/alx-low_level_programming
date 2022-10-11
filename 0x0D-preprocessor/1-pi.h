@@ -1,5 +1,5 @@
-#ifndef OBJECT_LIKE_MACRO
-#define OBJECT_LIKE_MACRO
+#ifndef PI_H
+#define PI_H
 
 #define SIZE 1024
 
