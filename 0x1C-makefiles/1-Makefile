@@ -1,0 +1,10 @@
+CC=gcc
+SRC=main.c other_file.c
+
+school: $(SRC:.c=.o)
+	$(CC) -o school $(SRC:.c=.o)
+
+%.o: %.c
+	$(CC) -c $<
+
+all: school
